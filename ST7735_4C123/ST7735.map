@@ -1022,49 +1022,49 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x00000000   0x00000000   0x00000284   Code   RO            3  * RESET               startup.o
-    0x00000284   0x00000284   0x00000000   Code   RO          767  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x00000284   0x00000284   0x00000004   Code   RO         1033    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x00000288   0x00000288   0x00000004   Code   RO         1036    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x0000028c   0x0000028c   0x00000000   Code   RO         1038    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x0000028c   0x0000028c   0x00000000   Code   RO         1040    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x0000028c   0x0000028c   0x00000008   Code   RO         1041    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x00000294   0x00000294   0x00000000   Code   RO         1043    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x00000294   0x00000294   0x00000000   Code   RO         1045    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x00000294   0x00000294   0x00000004   Code   RO         1034    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
-    0x00000298   0x00000298   0x00000024   Code   RO         1063    .text               mc_w.l(init.o)
-    0x000002bc   0x000002bc   0x00000020   Code   RO          161    i.Delay1ms          st7735.o
-    0x000002dc   0x000002dc   0x0000007c   Code   RO          143    i.PLL_Init          pll.o
+    0x00000284   0x00000284   0x00000000   Code   RO          770  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x00000284   0x00000284   0x00000004   Code   RO         1036    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x00000288   0x00000288   0x00000004   Code   RO         1039    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x0000028c   0x0000028c   0x00000000   Code   RO         1041    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x0000028c   0x0000028c   0x00000000   Code   RO         1043    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x0000028c   0x0000028c   0x00000008   Code   RO         1044    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x00000294   0x00000294   0x00000000   Code   RO         1046    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x00000294   0x00000294   0x00000000   Code   RO         1048    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x00000294   0x00000294   0x00000004   Code   RO         1037    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x00000298   0x00000298   0x00000024   Code   RO         1066    .text               mc_w.l(init.o)
+    0x000002bc   0x000002bc   0x00000020   Code   RO          164    i.Delay1ms          st7735.o
+    0x000002dc   0x000002dc   0x0000007c   Code   RO          146    i.PLL_Init          pll.o
     0x00000358   0x00000358   0x00000084   Code   RO           15    i.PortF_Init        st7735testmain.o
-    0x000003dc   0x000003dc   0x00000018   Code   RO          167    i.ST7735_Color565   st7735.o
-    0x000003f4   0x000003f4   0x000000f8   Code   RO          170    i.ST7735_DrawCharS  st7735.o
-    0x000004ec   0x000004ec   0x0000004c   Code   RO          174    i.ST7735_DrawPixel  st7735.o
-    0x00000538   0x00000538   0x00000056   Code   RO          176    i.ST7735_DrawString  st7735.o
+    0x000003dc   0x000003dc   0x00000018   Code   RO          170    i.ST7735_Color565   st7735.o
+    0x000003f4   0x000003f4   0x000000f8   Code   RO          173    i.ST7735_DrawCharS  st7735.o
+    0x000004ec   0x000004ec   0x0000004c   Code   RO          177    i.ST7735_DrawPixel  st7735.o
+    0x00000538   0x00000538   0x00000056   Code   RO          179    i.ST7735_DrawString  st7735.o
     0x0000058e   0x0000058e   0x00000002   PAD
-    0x00000590   0x00000590   0x000000b0   Code   RO          177    i.ST7735_FillRect   st7735.o
-    0x00000640   0x00000640   0x00000024   Code   RO          178    i.ST7735_FillScreen  st7735.o
-    0x00000664   0x00000664   0x0000007c   Code   RO          180    i.ST7735_InitR      st7735.o
-    0x000006e0   0x000006e0   0x000000d4   Code   RO          182    i.ST7735_OutChar    st7735.o
-    0x000007b4   0x000007b4   0x00000018   Code   RO          183    i.ST7735_OutString  st7735.o
-    0x000007cc   0x000007cc   0x0000005c   Code   RO          186    i.ST7735_PlotClear  st7735.o
-    0x00000828   0x00000828   0x00000020   Code   RO          193    i.ST7735_SetCursor  st7735.o
+    0x00000590   0x00000590   0x000000b0   Code   RO          180    i.ST7735_FillRect   st7735.o
+    0x00000640   0x00000640   0x00000024   Code   RO          181    i.ST7735_FillScreen  st7735.o
+    0x00000664   0x00000664   0x0000007c   Code   RO          183    i.ST7735_InitR      st7735.o
+    0x000006e0   0x000006e0   0x000000d4   Code   RO          185    i.ST7735_OutChar    st7735.o
+    0x000007b4   0x000007b4   0x00000018   Code   RO          186    i.ST7735_OutString  st7735.o
+    0x000007cc   0x000007cc   0x0000005c   Code   RO          189    i.ST7735_PlotClear  st7735.o
+    0x00000828   0x00000828   0x00000020   Code   RO          196    i.ST7735_SetCursor  st7735.o
     0x00000848   0x00000848   0x0000009c   Code   RO           17    i.ST7735_XYplot     st7735testmain.o
     0x000008e4   0x000008e4   0x0000005c   Code   RO           18    i.ST7735_XYplotInit  st7735testmain.o
-    0x00000940   0x00000940   0x0000000e   Code   RO         1075    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0000094e   0x0000094e   0x00000002   Code   RO         1076    i.__scatterload_null  mc_w.l(handlers.o)
-    0x00000950   0x00000950   0x0000000e   Code   RO         1077    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x0000095e   0x0000095e   0x00000056   Code   RO          197    i.commandList       st7735.o
-    0x000009b4   0x000009b4   0x00000188   Code   RO          198    i.commonInit        st7735.o
-    0x00000b3c   0x00000b3c   0x0000001c   Code   RO          199    i.deselect          st7735.o
+    0x00000940   0x00000940   0x0000000e   Code   RO         1078    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0000094e   0x0000094e   0x00000002   Code   RO         1079    i.__scatterload_null  mc_w.l(handlers.o)
+    0x00000950   0x00000950   0x0000000e   Code   RO         1080    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0000095e   0x0000095e   0x00000056   Code   RO          200    i.commandList       st7735.o
+    0x000009b4   0x000009b4   0x00000188   Code   RO          201    i.commonInit        st7735.o
+    0x00000b3c   0x00000b3c   0x0000001c   Code   RO          202    i.deselect          st7735.o
     0x00000b58   0x00000b58   0x000000ac   Code   RO           20    i.main              st7735testmain.o
-    0x00000c04   0x00000c04   0x00000012   Code   RO          204    i.pushColor         st7735.o
+    0x00000c04   0x00000c04   0x00000012   Code   RO          207    i.pushColor         st7735.o
     0x00000c16   0x00000c16   0x00000002   PAD
-    0x00000c18   0x00000c18   0x00000074   Code   RO          205    i.setAddrWindow     st7735.o
-    0x00000c8c   0x00000c8c   0x00000038   Code   RO          206    i.writecommand      st7735.o
-    0x00000cc4   0x00000cc4   0x00000024   Code   RO          207    i.writedata         st7735.o
+    0x00000c18   0x00000c18   0x00000074   Code   RO          208    i.setAddrWindow     st7735.o
+    0x00000c8c   0x00000c8c   0x00000038   Code   RO          209    i.writecommand      st7735.o
+    0x00000cc4   0x00000cc4   0x00000024   Code   RO          210    i.writedata         st7735.o
     0x00000ce8   0x00000ce8   0x00003974   Data   RO           29    .constdata          st7735testmain.o
-    0x0000465c   0x0000465c   0x00000842   Data   RO          209    .constdata          st7735.o
+    0x0000465c   0x0000465c   0x00000842   Data   RO          212    .constdata          st7735.o
     0x00004e9e   0x00004e9e   0x00000002   PAD
-    0x00004ea0   0x00004ea0   0x00000020   Data   RO         1073    Region$$Table       anon$$obj.o
+    0x00004ea0   0x00004ea0   0x00000020   Data   RO         1076    Region$$Table       anon$$obj.o
 
 
     Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00004ec0, Size: 0x00000040, Max: 0xffffffff, ABSOLUTE)
@@ -1073,7 +1073,7 @@ Memory Map of the image
 
     0x20000000   0x00004ec0   0x00000012   Data   RW           30    .data               st7735testmain.o
     0x20000012   0x00004ed2   0x00000002   PAD
-    0x20000014   0x00004ed4   0x0000002c   Data   RW          210    .data               st7735.o
+    0x20000014   0x00004ed4   0x0000002c   Data   RW          213    .data               st7735.o
 
 
     Execution Region ER_ZI (Exec base: 0x20000040, Load base: 0x00004f00, Size: 0x00000400, Max: 0xffffffff, ABSOLUTE)

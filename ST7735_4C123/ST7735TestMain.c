@@ -529,19 +529,7 @@ int globalMinX= 0;
 int globalMaxX= 0; 
 int globalMinY = 0;
 int	globalMaxY = 0;
-/**************ST7735_XYplotInit***************
- Specify the X and Y axes for an x-y scatter plot
- Draw the title and clear the plot area
- Inputs:  title  ASCII string to label the plot, null-termination
-          minX   smallest X data value allowed, resolution= 0.001
-          maxX   largest X data value allowed, resolution= 0.001
-          minY   smallest Y data value allowed, resolution= 0.001
-          maxY   largest Y data value allowed, resolution= 0.001
-          bcolor 16-bit color of the background
- Outputs: none
- assumes minX < maxX, and minY < maxY
-*/
-//Light Gray
+
   void  ST7735_XYplotInit(char* title, int minX, int maxX, int minY, int maxY, uint16_t color){
 		
 		globalMinX = minX;
@@ -558,16 +546,7 @@ int	globalMaxY = 0;
 
 		}			
 
-/**************ST7735_XYplot***************
- Plot an array of (x,y) data
- Inputs:  num    number of data points in the two arrays
-          bufX   array of 32-bit fixed-point data, resolution= 0.001
-          bufY   array of 32-bit fixed-point data, resolution= 0.001
-          color  16-bit color of the data points
- Outputs: none
- assumes ST7735_XYplotInit has been previously called
- neglect any points outside the minX maxY minY maxY bounds
-*/
+
 void ST7735_XYplot(int num, const int32_t* bufX, const int32_t* bufY, uint16_t color){
 	int j = 0;
 	int k = 0;
@@ -661,19 +640,7 @@ int main4(void){
     PF2 ^= 0x04;
   }
 }
-//int main4(void){uint32_t j; // main 4
-//  PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
-//  ST7735_InitR_PortD(INITR_REDTAB_PortD);
-//  ST7735_OutString_PortD("Graphics test\n");
-//  ST7735_OutString_PortD("cubic function\n");
-//  ST7735_PlotClear_PortD(0,4095);  // range from 0 to 4095
-//  for(j=0;j<128;j++){
-//    ST7735_PlotPoints_PortD(j*j/2+900-(j*j/256)*j,32*j); // cubic,linear
-//    ST7735_PlotNext_PortD();
-//  }   // called 128 times
-//  while(1){
-//  }
-//}
+
 int main7(void){ int i; // main 7
   PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
   ST7735_InitR(INITR_REDTAB);
